@@ -1,0 +1,134 @@
+ 
+:root{
+    --p-c: #3aa898;
+    --light-grey:#2b3032a1;
+    --border: #2b303218;
+    --text-color:#ff686b;
+    --roboto: sans-serif
+}
+
+header {
+    background-color:var(--p-c);
+}
+header .site-title{
+    font-family: sans-serif;
+    color: white;
+    font-size: 26px;
+}
+header .header-button,
+.header-button-item{
+font-size: .7em;
+
+}
+.header-links a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 0.9em;
+    color: white;
+    font-weight: bolder;
+}
+.navbar-links{
+    font-weight: bold;
+}
+.best-selling1{
+    text-transform: uppercase;
+    font-weight: bold;
+    /* background-color: #f8e1e1; */
+    color: rgba(8, 8, 8, 0.438);
+    margin: 30px auto 20px 1px;
+    /* border: 1px solid rgb(235, 232, 232); */
+    /* box-shadow: rgb(231, 230, 230) 1px 3px; */
+}
+.b-selling{
+    height: 400px;
+}
+.Featured{
+    text-transform: uppercase;
+    font-weight: bold;
+    /* background-color: #f8e1e1; */
+    color: rgb(196, 104, 52);
+    margin: 20px auto 20px 0px;
+}
+.on-sale{
+    text-shadow: 10px;
+    color: #ac090c;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.btn-primary1{
+    border: 1px rgb(226, 132, 120) solid;
+    color: #f82b2e;
+font-weight: 250px;
+background-color: rgb(252, 252, 247);
+margin-left: 500px;
+}
+.page-footer{
+    background-color: slategray;
+}
+.text-uppercase{
+    color: rgb(245, 246, 248);
+}
+.a{
+    color: rgb(245, 246, 248) !important;
+}
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .b {
+    padding: 0 16px;
+  }
+  
+  .b::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
